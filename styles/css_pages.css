@@ -60,6 +60,12 @@
         font-family: Shrikhand,"cursive";
         font-size: 2em;
     }
+    .coeur_vide, .coeur_plein{
+        font-size: 2.2em;
+        position: absolute;
+        right: 3%;
+        top: 3%; 
+    }
     .sous_menu{
         
         overflow: hidden;
@@ -184,10 +190,7 @@
         background-color: #fff;
         box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
     }
-    .bouton_commander:active{
-        background-color: #fff;
-        box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
-    }
+    
 
 
 
@@ -196,9 +199,15 @@
     .menu_header{
         max-width: 100%;
     }
+    .menu{
+        flex-direction: row;
+        justify-content: center;
+    }
 
-
-
+    .coeur_vide, .coeur_plein{
+        right: 2%;
+        top: 5%; 
+    }
 
 
 

@@ -123,18 +123,15 @@
     }
     .bouton_header2{
         border: 0;
-        padding: .95rem 1.5rem;
+        padding: 1.25rem 3rem;
         font-weight: 500;
         font-size: 1.25rem;
         border-radius: 100px;
         color: #fff;
         background-color: #686868;
         background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
-        cursor: pointer;
         transition-duration: .25s;
         box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
-        font-size: 1.7em;
-    
     }
     .bouton_header2:hover{
         background-color: #fff;
@@ -183,8 +180,7 @@
         color: #9356DC;
     }
     .fonctionnement div li:hover{
-       
-        background-color: #ccc9c9;
+        background-color: #bf8dc580;
     }
     .fonctionnement_icon {
         margin-right: 2rem;
@@ -257,43 +253,29 @@
         margin: 0 0 .25rem;
     }
     .coeur{
-        height: 2rem;
-        width: 2rem;
-        background-color: transparent;
-        border: 0 solid transparent;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         cursor: pointer;
-        position: relative;
+        margin: auto;
     }
     
-    
-    /*
-    .fa-heart:before { 
-        font-size: 2em;
-        margin-right: 1em;
-    }
-    .fa-heart:active {
-        color:#9356dc;
-    }
-    */
-    .fa-heart {
-        font-size: 2em;
-        border-radius: 50%;
+    .fa-heart { 
         padding:.2em;
-    }
-    
-    .fa-heart::before {
-        content: "\f004";
         transition: color 1s ease-out;
-    }
-    .fa-heart:hover::before{
-        color: #9356DC;
         cursor: pointer;
     }
 
+    
+    .coeur_plein { 
+        color: transparent;   
+    }
+    .coeur_vide, .coeur_plein{
+        font-size: 2.2em;
+        position: absolute;
+        right: 3%;
+        top: 79%; 
+    }
+    .coeur_plein:hover { color: #9356DC; }
+
+    
 /********** Footer **********/
     footer{
         display: flex;
@@ -333,19 +315,18 @@
     }
     .restaurants_cards{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        
+        grid-template-columns: repeat(2,1fr); 
     }
-
-
-
 
 
     footer{
         max-width: 100%;
         margin: 0;
+        align-items: center;
     }
-
+    .footer_list{
+        align-items: center;
+    }
 
 
 

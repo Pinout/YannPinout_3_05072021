@@ -13,7 +13,6 @@
     font-family:"Roboto", sans-serif;
   }
 
-@media(max-width:1000px){
 
     header{
         display: flex;
@@ -41,7 +40,7 @@
         background-color: #eeeeee;
         z-index: 1;
         position: relative;
-        max-width: 1280px;
+        max-width: 100%;
         
     }
 
@@ -109,7 +108,7 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
-        margin: 0;
+        margin: 0 0 .25rem;
     }
     .sous_menu_item_text_description{
         margin: 0;
@@ -179,11 +178,32 @@
         background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
         transition-duration: .25s;
         box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
-        cursor: pointer;
+    /*  cursor: pointer; */
     }
     .bouton_commander:hover{
         background-color: #fff;
         box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
     }
+    .bouton_commander:active{
+        background-color: #fff;
+        box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+    }
+
+
+
+@media (min-width : 1000px){
+
+    .menu_header{
+        max-width: 100%;
+    }
+
+
+
+
+
+
+
+
+
 
 }

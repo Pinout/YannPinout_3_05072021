@@ -59,15 +59,15 @@
     .menu_titre{
         font-family: Shrikhand,"cursive";
         font-size: 2em;
+        margin-right: 2em;
     }
     .coeur_vide, .coeur_plein{
         font-size: 2.2em;
         position: absolute;
         right: 3%;
-        top: 3%; 
+        top: 2.5%; 
     }
-    .sous_menu{
-        
+    .sous_menu{ 
         overflow: hidden;
         padding: 0 1rem;
     }
@@ -184,7 +184,7 @@
         background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
         transition-duration: .25s;
         box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
-    /*  cursor: pointer; */
+        cursor: pointer; 
     }
     .bouton_commander:hover{
         background-color: #fff;
@@ -206,7 +206,7 @@
 
     .coeur_vide, .coeur_plein{
         right: 2%;
-        top: 5%; 
+        top: 5.5%; 
     }
 
 

@@ -123,7 +123,7 @@
     }
     .bouton_header2{
         border: 0;
-        padding: 1.25rem 3rem;
+        padding: 1rem 2.25rem;
         font-weight: 500;
         font-size: 1.25rem;
         border-radius: 100px;
@@ -197,7 +197,7 @@
 
 
     /********** restaurants **********/
-    .restaurants{
+    #restaurants{
         background-color: #f6f6f6;
         padding: 2rem 1rem;
         max-width: 1280px;

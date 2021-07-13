@@ -179,7 +179,7 @@
     .fonctionnement_item i:hover{
         color: #9356DC;
     }
-    .fonctionnement div li:hover{
+    .fonctionnement ul li:hover{
         background-color: #bf8dc580;
     }
     .fonctionnement_icon {

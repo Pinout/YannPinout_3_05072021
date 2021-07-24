@@ -22,10 +22,13 @@
     }
     .fa-arrow-left{
         position: absolute;
+        top: 1.25rem;
         left: 2rem;
-        transform: translateY(-50%);
-        font-size: 1.25rem;
+        font-size: 2rem;
         color: #000;
+    }
+    header i:hover{
+        color: #5d5555;
     }
     .img{
         max-width: 100%;

@@ -110,6 +110,7 @@
         padding: 2rem;
         text-align: center;
         background-color: #fafafa;
+        text-decoration: none;
     }
     .titre{
         font-size: 1.8em;
@@ -121,9 +122,14 @@
         color: #403e3e;
         font-size: 1.8em;
     }
+    .container_bouton_header2{
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+    }
     .bouton_header2{
         border: 0;
-        padding: 1rem 2.25rem;
+        padding: 1.25rem 3rem;
         font-weight: 500;
         font-size: 1.25rem;
         border-radius: 100px;
@@ -132,6 +138,8 @@
         background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
         transition-duration: .25s;
         box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+        cursor: pointer; 
+        z-index: 30;
     }
     .bouton_header2:hover{
         background-color: #fff;
@@ -176,11 +184,12 @@
         position: absolute;
         left: -.75rem;
     }
-    .fonctionnement_item i:hover{
-        color: #9356DC;
-    }
+   
     .fonctionnement ul li:hover{
-        background-color: #bf8dc580;
+        background-color: #dfd5ea;
+    }
+    .fonctionnement ul li:hover i {
+        color: #9356dc;
     }
     .fonctionnement_icon {
         margin-right: 2rem;

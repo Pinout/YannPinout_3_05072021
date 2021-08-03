@@ -225,11 +225,6 @@
         position: relative;
         text-decoration: none;
         color: inherit;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
         margin: 1em;
     }
     .cards_img{

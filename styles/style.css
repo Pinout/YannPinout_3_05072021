@@ -1,11 +1,11 @@
 
 @font-face{
     font-family: "Shrikhand";
-    src: url("../polices/Shrikhand-Regular.otf");
+    src: url("polices/Shrikhand-Regular.otf");
   }
  @font-face{
     font-family: "Roboto";
-    src: url("../polices/Roboto-regular.ttf");
+    src: url("polices/Roboto-regular.ttf");
 }
 
 
@@ -198,12 +198,10 @@
         align-self: center;
         font-size: 1.6em;
     }
-
-
     .text{
         font-weight: bold;
         text-align: center;
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
 
@@ -293,17 +291,17 @@
         margin: auto;
         position: relative;
     }
-    .footer_titre1, {
+    .footer_titre1 {
         color: #fff;
         font-family: Shrikhand;
         font-size: 1.2rem;
-        margin: 0 0 1rem 1rem;
+        margin: 0 0 0.5rem 1rem;
     }
-    .footer_titre, {
+    .footer_titre {
         color: #fff;
         font-family: Shrikhand;
         font-size: 1.2rem;
-        margin: 0 0 1rem;
+        margin: 0 0 0.5rem;
     }
     .footer_list1 {
         list-style: none;
@@ -325,6 +323,16 @@
         margin-top: 0.5em;
     }
 
+@media (max-width: 999px){
+    .fa-list-ul {
+        margin: 0 0rem 0 -1.5rem;
+        width: 3.3rem;
+    }
+    .fa-store {
+        margin: 0 0.2rem 0 -1.5rem;
+        width: 3.3rem;
+    }
+}
 
 @media (min-width : 1000px){
 
@@ -337,15 +345,26 @@
         display: grid;
         grid-template-columns: repeat(2,1fr); 
     }
-
-
     footer{
         max-width: 100%;
         margin: 0;
         align-items: center;
     }
+/** responsive pages annexes **/
     .footer_list1, .footer_list{
         align-items: center;
+    }
+    .menu_header{
+        max-width: 100%;
+    }
+    .menu{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .coeur_vide2, .coeur_plein2{
+        right: 2%;
+        top: 5.5%; 
     }
 }
 
@@ -530,25 +549,3 @@
         background-color: #fff;
         box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
     }
-    
-
-
-
-@media (min-width : 1000px){
-
-    .menu_header{
-        max-width: 100%;
-    }
-    .menu{
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .coeur_vide2, .coeur_plein2{
-        right: 2%;
-        top: 5.5%; 
-    }
-}
-
-
-

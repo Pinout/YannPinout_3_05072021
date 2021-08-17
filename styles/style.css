@@ -109,19 +109,18 @@
     .header2{
         padding: 2rem;
         text-align: center;
-        background-color: #fafafa;
+        background-color: #f6f6f6;
         text-decoration: none;
     }
     .titre{
         font-size: 1.8em;
         font-weight: bold;
-        margin-left: 1rem;
     }
     .sous_titre_header2{
         font-weight: 500;
         margin: 1.3rem 0;
-        color: #403e3e;
-        font-size: 1.8em;
+        color: #757575;
+        font-size: 1.1rem;
     }
     .container_bouton_header2{
         display: flex;
@@ -130,9 +129,9 @@
     }
     .bouton_header2{
         border: 0;
-        padding: 1.25rem 3rem;
-        font-weight: 500;
-        font-size: 1.25rem;
+        padding: 1.2rem 1.5rem;
+        font-weight: 550;
+        font-size: 1.1rem;
         border-radius: 100px;
         color: #fff;
         background-color: #686868;
@@ -213,6 +212,8 @@
         margin: auto;
         position: relative;
     }
+    #restaurants .titre { margin-left: 1rem; }
+    
     .restaurants_cards{
         display: flex;
         flex-direction: column;
@@ -320,7 +321,7 @@
     .footer_text{
         color: #fff;
         text-decoration: none;
-        margin-top: 0.5em;
+        margin-top: 0.7em;
     }
 
 @media (max-width: 999px){
